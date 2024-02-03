@@ -1,0 +1,174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.728);
+}
+.page1{
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+.nav{
+    height: 115px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 1.5%;
+}
+.nav-part2{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.nav h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav>i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.nav h5{
+    font-size: 18px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.nav-part2 img{
+    height: 50px;
+    cursor: pointer;
+}
+.line{
+    height: 2px;
+    width: 70px;
+    background-color: red;
+}
+.header{
+    width: 100%;
+    height:calc(100% - 115px);
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.header>img{
+    height: 100%;
+    position: absolute;
+    left: 51%;
+    transform: translate(-50%,0 );
+}
+.left{
+    width: 36%;
+    height: 100%;
+    /* background-color: brown; */
+    padding: 110px 40px;
+    position: relative;
+}
+.right{
+    width: 36%;
+    height: 100%;
+    /* background-color: brown; */
+    position: relative;
+    padding: 300px 100px;
+}
+.center{    
+    width: 26%;
+    height: 100%;
+    position: relative;
+    padding-top: 30px;
+}
+.left h1{
+    font-size: 65px;
+    /* text-align: center; */
+    line-height: 65px;
+    margin-bottom: 20px;
+    /* background-color: aqua; */
+}
+.left h1 span{
+    color: red;
+    font-weight: lighter;
+}
+.left p{
+    font-size: 18px;
+     width: 70%;
+     margin-bottom: 20px;
+     line-height: 25px;
+}
+button{
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    padding: 18px 40px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.799);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+    transition: all ease 0.4s;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.802);
+    color: rgba(255, 0, 0, 0.791);
+}
+.left button i{
+    margin-right: 8px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-right: 220px;
+}
+.btn>i{
+    font-size: 30px;
+    
+}
+.btn>i:hover{
+color: rgba(255, 0, 0, 0.791);
+}
+.right-elm{
+    /* background-color: red; */
+    width: 400px;
+}
+.elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: rgb(43, 255, 0); */
+    border-bottom: 1px solid white;
+}
+.elem1 h1{
+    font-size: 23px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.442);
+}
+.elem1 i{
+    font-size: 23px;
+}
+.elem2 h1{
+    font-size: 23px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    padding-top: 12px;
+}
+.elem2 p{
+    font-size: 15px;
+    width: 80%;
+}
